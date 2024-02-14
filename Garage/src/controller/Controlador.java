@@ -10,6 +10,8 @@ import models.Propietario;
 import models.Servicio;
 import models.TipoVehiculo;
 import models.Vehiculo;
+import views.MenuPrincipal;
+import views.VentanaPrincipal;
 
 /**
  *
@@ -22,7 +24,14 @@ public class Controlador implements ActionListener{
     private Servicio servicio;
     private Factura factura;
 
+    private VentanaPrincipal ventanaPrincipal;
+    private MenuPrincipal menuPrincipal;
+    
     public Controlador() {
+        ventanaPrincipal = new VentanaPrincipal(this);
+        menuPrincipal = new MenuPrincipal(this);
+        ventanaPrincipal.setJMenuBar(menuPrincipal);
+        ventanaPrincipal.setVisible(true);
     }
     
     

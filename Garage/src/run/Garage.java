@@ -4,17 +4,17 @@
  */
 package run;
 
+import controller.Controlador;
+
 /**
  *
  * @author Diego Moreno
  */
 public class Garage {
     
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        new Controlador();
+        
     }
     
 }

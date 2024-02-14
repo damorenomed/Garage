@@ -1,0 +1,46 @@
+PARTE 1
+
+arreglar formato de duracion en minutos, pasarlo a horas
+
+crear clase utils para pasar conversion de tiempos, formatos de fechas, calculos de fechas de entrega
+
+Refinar base con tipos de datos, autoincrementales y datos de auditoria
+crear Roles-Usuarios
+
+crear formularios para cada clase, GRIDBAGLAYOUT OBLIGATORIO
+CHATGPT
+
+- creacion
+- modificacion
+- consulta
+- eliminar
+
+controller aparte de conexion a base de datos
+conexión a base de datos chatgpt 
+
+
+
+conexion con la base de datos
+Poblar base de datos
+
+FECHA TERMINACION : VIERNES 10 NOVIEMBRE
+--------------------------------------------------------------------------
+
+PARTE 2
+
+
+Copiar login de proyecto Taller
+
+Crear menu para los roles establecidos
+
+Cambio de lenguaje en tiempo real
+(copiar de otro proyecto)
+    INTERFACE BILINGUE QUE TENGA UN METODO OBLIGATORIODE CAMBIO DE IDIOMA PARA CADA PANTALLA A CREAR
+
+Subir a git 
+
+FECHA TERMINACION : LUNES 13 NOVIEMBRE
+
+
+
+REVISION DE ACTIVIDADES PARA REALIZAR ENTREGAS SEGUN EL AVANCE
