@@ -44,7 +44,6 @@ public class MenuPrincipal extends JMenuBar {
 
     private void iniciarComponentes() {
         addMenuArchivo();
-        addMenuEditar();
         addMenuPropietarios();
         addMenuVehiculos();
         addMenuServicios();
@@ -166,7 +165,7 @@ public class MenuPrincipal extends JMenuBar {
         JMISalir.setText(GlobalLanguage.EXIT);
         JMICierraSesion.setText(GlobalLanguage.LOGOUT);
         
-        JMEditar.setText(GlobalLanguage.EDIT);
+        //JMEditar.setText(GlobalLanguage.EDIT);
         JMPropietario.setText(GlobalLanguage.OWNER);
         JMINuevoPropietario.setText(GlobalLanguage.MANAGE_OWNER);
         JMVehiculo.setText(GlobalLanguage.CAR);
